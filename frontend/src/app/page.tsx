@@ -1,5 +1,5 @@
-import { NdaWorkspace } from "@/components/nda-workspace";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return <NdaWorkspace />;
+  redirect("/login");
 }

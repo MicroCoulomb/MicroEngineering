@@ -577,8 +577,7 @@ export function NdaWorkspace() {
   }
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.2),_transparent_32%),linear-gradient(180deg,_#fffaf0_0%,_#f5efe3_48%,_#efe6d7_100%)] px-4 py-6 text-stone-900 sm:px-6 lg:px-8">
-      <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[420px_minmax(0,1fr)]">
+    <section className="grid gap-6 lg:grid-cols-[420px_minmax(0,1fr)]">
         <section className="rounded-[2rem] border border-stone-200/80 bg-white/90 p-6 shadow-[0_24px_80px_rgba(120,53,15,0.12)] backdrop-blur">
           <div className="mb-8">
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-700">
@@ -702,7 +701,6 @@ export function NdaWorkspace() {
             <NdaPreviewPaper previewDocument={previewDocument} />
           </div>
         </section>
-      </div>
-    </main>
+    </section>
   );
 }
